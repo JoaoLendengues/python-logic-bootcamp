@@ -26,3 +26,8 @@ DICAS:
 numeros = [1, 2, 3, 4, 5]
 
 # ↓ COMPLETE ABAIXO ↓
+for numero in numeros:
+    if numero % 2 == 0:
+        print(f'{numero} é Par')
+    else:
+        print(f'{numero} é ímpar')

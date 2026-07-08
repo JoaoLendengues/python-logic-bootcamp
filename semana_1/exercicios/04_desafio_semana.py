@@ -21,6 +21,15 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-numeros = [1, 2, 3, 4, 5, 6]
+# numeros = [1, 2, 3, 4, 5, 6]
 
 # ↓ COMPLETE ABAIXO ↓
+numeros = [1, 2, 3, 4, 5, 6]
+
+pares = []
+
+for lista_pares in numeros:
+    if lista_pares % 2 == 0:
+        pares.append(lista_pares)
+
+print(pares)

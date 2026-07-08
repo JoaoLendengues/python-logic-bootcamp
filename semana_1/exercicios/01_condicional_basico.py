@@ -17,6 +17,13 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-idade = 25
+# idade = 25
 
 # ↓ COMPLETE ABAIXO ↓
+idade = int(input('Digite sua idade: '))
+
+if idade < 18:
+    print('Você ainda não tem idade para dirigir!')
+else:
+    print('Parabéns, você atingiu a idade mínima para dirigir!')
+    

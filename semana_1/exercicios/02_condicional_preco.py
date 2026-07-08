@@ -21,6 +21,19 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-preco = 100
+# preco = 100
 
 # ↓ COMPLETE ABAIXO ↓
+preco = float(input('Digite o preço do produto selecionado: '))
+
+if preco < 50:
+    print('Barato')
+
+elif preco >= 50 and preco < 150:
+    print('Médio')
+
+elif preco > 150:
+    print('Caro')
+
+else:
+    print('Digite um preço válido!')
