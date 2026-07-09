@@ -23,6 +23,8 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-numeros = [1, 3, 4, 6, 7, 9, 10, 12]
+# numeros = [1, 3, 4, 6, 7, 9, 10, 12]
 
 # ↓ COMPLETE ABAIXO ↓
+
+   
