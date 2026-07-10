@@ -23,6 +23,19 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-temperatura = 18
+# temperatura = 18
 
 # ↓ COMPLETE ABAIXO ↓
+temp = int(input('Qual a temperatura atual? '))
+
+if temp < 10:
+   print(f'{temp}°C. Está frio!')
+
+elif temp >= 10 and temp <= 25:
+   print(f'{temp}°C. Está ameno!')
+
+elif temp > 25:
+   print(f'{temp}°C. está quente!')
+
+else:
+   print('Digite uma temperatura válida!')

@@ -27,5 +27,10 @@ DICAS:
 
 # ↓ COMPLETE ABAIXO ↓
 numeros = [1, 3, 4, 6, 7, 9, 10, 12]
+multiplos = []
 
-   
+for multiplo in numeros:
+   if multiplo % 3 == 0:
+      multiplos.append(multiplo)
+
+print(multiplos)   

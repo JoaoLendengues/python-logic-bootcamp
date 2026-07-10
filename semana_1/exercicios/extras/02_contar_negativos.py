@@ -19,6 +19,14 @@ DICAS:
 """
 
 # ESCREVA SEU CÓDIGO AQUI
-numeros = [5, -3, 8, -1, -10, 4]
+# numeros = [5, -3, 8, -1, -10, 4]
 
 # ↓ COMPLETE ABAIXO ↓
+numeros = [5, -3, 8, -1, -10, 4]
+contador = 0
+
+for numero in numeros:
+    if numero < 0:
+        contador += 1
+
+print(contador)
