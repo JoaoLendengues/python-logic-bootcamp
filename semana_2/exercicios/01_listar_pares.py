@@ -25,3 +25,9 @@ DICAS:
 numeros = [5, 2, 7, 4, 9, 6]
 
 # ↓ COMPLETE ABAIXO ↓
+pares = []
+
+for indice, numero in enumerate(numeros):
+    if numero % 2 == 0:
+        pares.append(numero)
+        print(f'Índice {indice}: {numero} é par.')

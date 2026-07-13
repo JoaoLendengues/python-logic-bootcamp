@@ -22,3 +22,11 @@ DICAS:
 numeros = [10, 20, 30, 40]
 
 # ↓ COMPLETE ABAIXO ↓
+soma = 0
+
+for numero in numeros:
+    soma += numero
+
+media = soma / len(numeros)
+print(soma)
+print(media)

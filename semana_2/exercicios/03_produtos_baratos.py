@@ -21,3 +21,9 @@ DICAS:
 precos = [50, 150, 80, 200, 99]
 
 # ↓ COMPLETE ABAIXO ↓
+baratos = []
+
+for lista in precos:
+    if lista < 100:
+        baratos.append(lista)
+print(baratos)
