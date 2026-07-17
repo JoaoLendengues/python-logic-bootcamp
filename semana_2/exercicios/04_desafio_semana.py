@@ -30,3 +30,14 @@ DICAS:
 precos = [50, 150, 80, 200, 99, 300]
 
 # ↓ COMPLETE ABAIXO ↓
+soma = 0
+baratos = []
+
+for preco in precos:
+    soma += preco
+    if preco < 100:
+        baratos.append(preco)
+
+print(soma)
+print(len(baratos))
+print(baratos)
